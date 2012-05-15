@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC “-//W3C//DTD HTML 4.01//EN” “http://www.w3.org/TR/html4/strict.dtd”>
+
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>jQuery Performance Tips from Paul Irish</title>
+    <meta name="author" content="Valery Yushchenko" />
+
+    <link rel="stylesheet" type="text/css" href="/css/reset-fonts-grids.css" />
+    <link rel="stylesheet" type="text/css" href="/css/base.css" />
+    <link rel="stylesheet" type="text/css" href="/css/master.css" />
+
+    <link rel="alternate" type="application/rss+xml"  href="http://feeds.feedburner.com/vyushchenko" title="rss feed">
+
+  </head>
+
+  <body>
+      <div id="doc" class="yui-t4">
+
+        <div id="hd">
+          <small class="hd-menu">
+            
+            <a href='/'>home</a>  &laquo;
+            
+          </small>
+          <h1><a href='/'>Valery Yushchenko</a></h1>
+          <h3><a href='/' class="light">Little is better than nothing</a></h3>
+        </div>
+
+        <div id="bd">
+          <div class="post">
+<h1>jQuery Performance Tips from Paul Irish</h1>
+
+<p>Today I've been happy to find a really cool presentation about jQuery performance.
+It was created by <a href="http://paulirish.com/" title="Paul Irish blog">Paul Irish</a> and located <a href="http://www.slideshare.net/paul.irish/perfcompression" title="jQuery Anti-Patterns for Performance &amp; Compression">here</a>.
+The <a href="http://vimeo.com/10295601" title="jQuery Anti-Patterns for Performance &amp; Compression Video">video</a> is also available online.</p>
+
+<p>In my humble opinion, the presentation should be seen by every jQuery developer
+and I regret that I have found it so late.
+This short summary shows the picture in whole but, in any case, doesn't replace the original.</p>
+
+<p>1. Append as late as it's possible:</p>
+
+<pre><code> for ( .. many items ..) { 
+     $(...).append(item);           // slow, many DOM operations
+ }
+
+ var items = [];
+ for ( ... many items ...) {
+     items.push(item);    
+ }
+ $(...).html(items.join(''));       // faster, changing DOM in one touch
+</code></pre>
+
+<p>2. Don't requery:</p>
+
+<pre><code>$(target).append('&lt;to append /&gt;');
+$('&lt;to append /&gt;').click(...);
+
+$('&lt;to append /&gt;').appendTo(target).click(...);      // working with appended elements
+</code></pre>
+
+<p>3. Query in context:</p>
+
+<pre><code>$('#container').find('.an-item')...; // the recomended way
+$('.an-item', '#container')...;      // the same
+
+$('#container .an-item')...;         // usual and slow approach 
+</code></pre>
+
+<p>4. Read selectors from right to left like Sizzle does:</p>
+
+<pre><code>$('#element span')...;               // it's going to find all spans in entire document first
+$('#element').find('span')...;       // using context again
+</code></pre>
+
+<p>5. Be specific:</p>
+
+<pre><code>$(':radio')...;                      // = *:radio, select everything than filter it
+$('input:radio')...;                 // much faster version
+</code></pre>
+
+<p>6. Delegate - live events in context (jQuery 1.4.2):</p>
+
+<pre><code>$('#container').delegate('click', '.item', fn);    // explicit context reduce overhead
+</code></pre>
+
+<p>7. Detach it from DOM (jQuery 1.4):</p>
+
+<pre><code>var container = $('#container'), parent = container.parent();
+container.detach();
+..                                   // do havy DOM manipulations here
+parent.append(container);            // allows browser render your changes
+</code></pre>
+
+<p>8. Don't pay for nothing:</p>
+
+<pre><code>$('#notExistingElement').slideUp();  // does a lot of job
+</code></pre>
+
+<p>9. Attach data fast:</p>
+
+<pre><code>$(element).data(key, value);         // the usual way
+$.data(elemement, key, value);       // works up to 10x faster 
+</code></pre>
+
+</div>
+
+        </div>
+
+        <div id="ft">
+          <a class='license' rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/" target="_blank">
+            Creative Commons - Non Commercial
+          </a>
+          <span>&copy; 2010-2011 Valery Yushchenko.</span>
+        </div>
+
+      </div>
+
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-25708276-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>      
+
+  </body>
+
+</html>

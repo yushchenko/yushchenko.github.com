@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Valery Yushchenko</title>
+ <link href="http://www.yushchenko.name/atom.xml" rel="self"/>
+ <link href="http://www.yushchenko.name/"/>
+ <updated>2012-05-15T12:31:46+10:00</updated>
+ <id>http://www.yushchenko.name/</id>
+ <author>
+   <name>Valery Yushchenko</name>
+   <email>valery@yushchenko.name</email>
+ </author>
+
+ 
+    
+ <entry>
+   <title>SydJS - September 2011</title>
+   <link href="http://www.yushchenko.name/videos/2011/09/sydjs"/>
+   <updated>2011-09-21T00:00:00+10:00</updated>
+   <id>http://www.yushchenko.name/videos/2011/09/sydjs</id>
+   <content type="html">&lt;h1&gt;SydJS - September 2011&lt;/h1&gt;
+
+&lt;h2&gt;Everybody loves Strings&lt;/h2&gt;
+
+&lt;p&gt;Steve Haffenden, &lt;a href=&quot;http://twitter.com/#!/SMHaffenden&quot;&gt;@SMHaffenden&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe class=&quot;video&quot; src=&quot;http://player.vimeo.com/video/29515538&quot; width=&quot;640&quot; height=&quot;480&quot; frameborder=&quot;0&quot; webkitAllowFullScreen allowFullScreen&gt;&lt;/iframe&gt;
+
+
+&lt;h2&gt;Making testing less testing with Sinon.js&lt;/h2&gt;
+
+&lt;p&gt;Chris Darroch, &lt;a href=&quot;http://twitter.com/#!/chrisdarroch&quot;&gt;@chrisdarroch&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe class=&quot;video&quot; src=&quot;http://player.vimeo.com/video/29515538&quot; width=&quot;640&quot; height=&quot;480&quot; frameborder=&quot;0&quot; webkitAllowFullScreen allowFullScreen&gt;&lt;/iframe&gt;
+
+
+&lt;h2&gt;What's next for webOS?&lt;/h2&gt;
+
+&lt;p&gt;Dominic Lovell, &lt;a href=&quot;http://twitter.com/#!/dominiclovell&quot;&gt;@dominiclovell&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe class=&quot;video&quot; src=&quot;http://player.vimeo.com/video/29514562&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitAllowFullScreen allowFullScreen&gt;&lt;/iframe&gt;
+
+
+&lt;h2&gt;Modern Tea Ceremony Powered by Node.js&lt;/h2&gt;
+
+&lt;p&gt;Valery Yushchenko, &lt;a href=&quot;http://twitter.com/#!/vyushchenko&quot;&gt;@vyushchenko&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe class=&quot;video&quot; src=&quot;http://player.vimeo.com/video/29515748&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitAllowFullScreen allowFullScreen&gt;&lt;/iframe&gt;
+
+</content>
+ </entry>
+    
+ 
+    
+ <entry>
+   <title>Modern Tea Ceremony Powered by Node.js</title>
+   <link href="http://www.yushchenko.name/talks/2011/09/modern-tea-ceremony-powered-by-node-js"/>
+   <updated>2011-09-21T00:00:00+10:00</updated>
+   <id>http://www.yushchenko.name/talks/2011/09/modern-tea-ceremony-powered-by-node-js</id>
+   <content type="html">&lt;h1&gt;Modern Tea Ceremony Powered by Node.js&lt;/h1&gt;
+
+&lt;iframe class=&quot;video&quot; src=&quot;http://player.vimeo.com/video/29515748&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitAllowFullScreen allowFullScreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;My talk at &lt;a href=&quot;http://www.sydjs.com/&quot; title=&quot;JavaScript Developer Meetup in Sydney&quot;&gt;SydJS&lt;/a&gt; on September 21 2011.&lt;/p&gt;
+
+&lt;p&gt;All project related materials are &lt;a href=&quot;https://github.com/yushchenko/theteaproject/wiki&quot; title=&quot;The Tea Project&quot;&gt;here&lt;/a&gt; including &lt;a href=&quot;https://github.com/yushchenko/theteaproject/wiki/Talk&quot; title=&quot;Script of the Talk&quot;&gt;talk's script&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+    
+ 
+    
+ 
+    
+ <entry>
+   <title>JavaScript Interview Questions</title>
+   <link href="http://www.yushchenko.name/articles/2011/08/javascript-interview-questions"/>
+   <updated>2011-08-29T00:00:00+10:00</updated>
+   <id>http://www.yushchenko.name/articles/2011/08/javascript-interview-questions</id>
+   <content type="html">&lt;h1&gt;JavaScript Interview Questions&lt;/h1&gt;
+
+&lt;p&gt;Could you please choose &lt;strong&gt;ONLY 6&lt;/strong&gt; of 12 following questions and answer them? &lt;br/&gt;
+We would advise you to read all questions and select &lt;strong&gt;THE MOST INTERESTING FOR YOU&lt;/strong&gt;. &lt;br/&gt;
+Be aware that your selection of these 6 is the aswer to the 7th, probably, the most important question.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;How many variables in the global scope do you usually declare for a project?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;What is the difference between &lt;code&gt;==&lt;/code&gt; and &lt;code&gt;===&lt;/code&gt; operators?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Pick up the fastest:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;for ( ... in ...) {...}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;while (...) { ... }&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$.each(list, function(...) {...})&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;What is wrong with the following code: &lt;code&gt;JSON.parse('{a: 1}')&lt;/code&gt; ?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Could you write a short code sample to demonstrate hoisting in JavaScript?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;What is you favorite JavaScript debugger? Profiler?  &lt;br/&gt;
+Could you list other debugging and performance optimisation tools?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;What is the difference between JSON and XML? Between XML and HTML?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Could you explain the difference between jQuery, Ext JS and Backbone.js libraries?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Imagine, you want to know how &lt;code&gt;_.memoize()&lt;/code&gt; is implemented. What are you going to do?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Could you pick up 3 items from the following list and explain your choice:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ASP.Net MVC&lt;/li&gt;
+&lt;li&gt;Node.js&lt;/li&gt;
+&lt;li&gt;PHP&lt;/li&gt;
+&lt;li&gt;Twisted&lt;/li&gt;
+&lt;li&gt;EventMachine&lt;/li&gt;
+&lt;li&gt;Ruby on Rails&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Could you choose one person and explain who is that:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Douglas Crockford&lt;/li&gt;
+&lt;li&gt;Rayn Dahl&lt;/li&gt;
+&lt;li&gt;Brendan Eich&lt;/li&gt;
+&lt;li&gt;Nicholas Zakas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;What is your favorite programming language?&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+</content>
+ </entry>
+    
+ 
+    
+ <entry>
+   <title>The Work Of My Dream</title>
+   <link href="http://www.yushchenko.name/articles/2011/08/the-work-of-my-dream"/>
+   <updated>2011-08-11T00:00:00+10:00</updated>
+   <id>http://www.yushchenko.name/articles/2011/08/the-work-of-my-dream</id>
+   <content type="html">&lt;h1&gt;The Work Of My Dream&lt;/h1&gt;
+
+&lt;p&gt;Several thoughts about work, a bit of random and barely sorted.&lt;/p&gt;
+
+&lt;p&gt;Prefer dynamic languages and Unix environment.
+JavaScript, Node.js, Python, Ruby (probably), Emacs, Git, Github etc.
+Used to program for .Net but now it seems clumsy and overcomplicated for me.
+Like and know SQL but don't think that RDBMS is the right storage option in all situations.&lt;/p&gt;
+
+&lt;p&gt;Like play with UX. Typically use 95/5% approach.
+95% - well known patterns, controls etc plus 5% - innovations, inventions, extensions and so on.
+Enjoy 'webish' looking interfaces such as Github, Twitter, Gmail and Google Reader.
+An Outlook style app in browser makes me sick.&lt;/p&gt;
+
+&lt;p&gt;Love simple (not primitive) solutions.
+If it's possible to store data in text file, I am not using a DB, even object oriented one.
+When write JavaScript (Python), the text file is going to be rather in JSON (YAML) than XML.
+The ideal solution - no code at all. No code - no bugs - no support etc.
+In reality I try to minimise own codebase as much as possible
+using an appropriate development process, language(s), tools and libs.&lt;/p&gt;
+
+&lt;p&gt;It's lovely to play with algorithms, data structures and performance optimisation.
+An example, http://jsperf.com/fibonacii-numbers-for-digital5-test (sorry for mistype in the URL),
+the task was to calculate Fibs without recursion in C# and explain why recursion is a bad idea here.
+As you can see, it's quite easy to overcome recursion's drawback (fibMemoization case)
+using an approach quite typical for a dynamic language like JavaScript but rather unusual for C#.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, I don't have systematic knowledge in Mathematics or Computer Science.
+Would be glad to study Math, algorithms, academic programming languages like Haskel, Scheme etc.
+Looking for an appropriate project for that. Will be happy to invest spare time.
+When worked at Frayman Group, a couple of my colleagues were dealing with full text search
+and knowledge extraction (if using the right term), I envied them.&lt;/p&gt;
+
+&lt;p&gt;Believe, knowledge of the project's domain area is crucial, expect an advice of several good books.
+Interested in building systems where software is only a part, of course, an important one.&lt;/p&gt;
+
+&lt;p&gt;Working hard to improve my writing skills.
+Use variety of tools from Twitter to project's wikis.
+Still far from perfect, the same as all spell checkers that I ever saw, so sorry for mistakes.&lt;/p&gt;
+
+&lt;p&gt;Looking for a way to build a personal knowledge base.
+In my mind it's currently wiki + source control + Emacs mode + scripts + web services and browser plugins.
+Using a simple version of this approach for my current project at CaseWork.&lt;/p&gt;
+
+&lt;p&gt;Like to experiment, sometimes do weird things.
+Can install motorcycle's mirrors on top of my monitors
+or bring to the office a fitness ball to sit on.&lt;/p&gt;
+
+&lt;p&gt;Weekly it's 128h of life vs 40h of work,
+so I use 'life-work balance' phrase instead of its 'work-life' equivalent.
+40h per week is enough to get work done.
+The rest is better to spend for studying than sitting out colleagues at the office.
+I respect other people's time and expect the same in return.&lt;/p&gt;
+
+&lt;p&gt;It's pretty much all for the current moment.
+My understanding of life is evolving over the time,
+so I will upgrade this list or may be even rewrite it from scratch in the future.&lt;/p&gt;
+</content>
+ </entry>
+    
+ 
+    
+ <entry>
+   <title>Bla-Bla-Bla Problem - Looking for Solutions</title>
+   <link href="http://www.yushchenko.name/articles/2011/08/bla-bla-bla-problem-looking-for-solutions"/>
+   <updated>2011-08-04T00:00:00+10:00</updated>
+   <id>http://www.yushchenko.name/articles/2011/08/bla-bla-bla-problem-looking-for-solutions</id>
+   <content type="html">&lt;h1&gt;Bla-Bla-Bla Problem - Looking for Solutions&lt;/h1&gt;
+
+&lt;p&gt;Communications and concentration are both equally important in software development.
+You need to be aware what happens inside your team and, at the same time, you got own job to be done.
+There might be a conflict.&lt;/p&gt;
+
+&lt;p&gt;Communication vs concentration dilemma exists only under quite narrow conditions.
+The first condition is &lt;strong&gt;emotions&lt;/strong&gt;, such conversation distracts much more than a calm.
+Next factor is the &lt;strong&gt;distance&lt;/strong&gt;, what I call 'overhead speaking' is the killer,
+a group discussion in 12m aside at open office space is a little nuisance.
+The last one is the &lt;strong&gt;duration&lt;/strong&gt;, probably it's personal,
+but I can barely survive listening a colleague speaking on the phone for the second hour.
+At the same time, a couple of minutes small talk can be nice and refreshing.&lt;/p&gt;
+
+&lt;p&gt;The issue is complex enough to have several possible solutions.&lt;/p&gt;
+
+&lt;p&gt;The most obvious organizational way is
+convincing your boss to separate 'speaking' and 'coding' people.
+It can succeed but often it isn't a case.&lt;/p&gt;
+
+&lt;p&gt;A longer way is promoting proper communication culture.
+Chats, emails, wikis for discussions.
+The sound of keyboards is not distracting, at least for programmers.
+The lovely by-product of this could be better documentation.
+Nice, but again, it's a lot of time.&lt;/p&gt;
+
+&lt;p&gt;The example of a personal way would be the ability to 'cut off' everything from outside,
+don't pay any attention to your environment at all.
+Code, documentation, code, code, twitter, code, browser, debugger...
+It's not easy but fairly possible to develop such mental skill over the time.
+Only one problem, I don't want to ignore my teammates.
+It fills unethical and counterproductive.
+Summarizing, the way is quite hard and has essential side effects, looks like the last resort.&lt;/p&gt;
+
+&lt;p&gt;A geekish way.
+Remember, I heard about a device that starts play music
+when people in the room speak too loud and emotionally.
+Developed for couples who swear a lot.
+Probably, it's a partial solution of the problem.&lt;/p&gt;
+
+&lt;p&gt;A programmer's way.
+I love recursion, so it is writing &lt;em&gt;this article&lt;/em&gt; and sending the link to my colleagues.&lt;/p&gt;
+
+&lt;p&gt;Obviously, the best way is the combination of several different approaches.
+The list above looks fine to start but it's surely incomplete.
+Would be quite interesting to extend it.
+And you are welcome to help me with that.&lt;/p&gt;
+</content>
+ </entry>
+    
+ 
+    
+ <entry>
+   <title>Using Wiki as a Yellow Rubber Duck</title>
+   <link href="http://www.yushchenko.name/articles/2011/08/using-wiki-as-a-yellow-rubber-duck"/>
+   <updated>2011-08-02T00:00:00+10:00</updated>
+   <id>http://www.yushchenko.name/articles/2011/08/using-wiki-as-a-yellow-rubber-duck</id>
+   <content type="html">&lt;h1&gt;Using Wiki as a Yellow Rubber Duck&lt;/h1&gt;
+
+&lt;p&gt;During troubleshooting it can be quite useful try to explain the problem.
+The listener's personality is not particularly important in this case.
+It can be a colleague or a yellow rubber duck.
+The explanation helps you to look at the problem from a bit different angle
+and often find a decent solution.&lt;/p&gt;
+
+&lt;p&gt;If I can explain the problem, why I can't simply write it down?
+Sometimes the formulation itself does not work,
+I can go further and log all troubleshooting attempts.
+The logging often brings new ideas
+and definitively helps to avoid repeating the same steps again and again.
+If something is written down, it is considered as a reliable fact,
+the base for the next step. When the issue is eventually resolved,
+it may be useful to spend a couple of minutes
+and think how to avoid similar troubles in the future.
+And again write it down.&lt;/p&gt;
+
+&lt;p&gt;A whiteboard, sheet of paper or text file can be used for this technique.
+I personally love wikis. It provides me one small but important benefit, the URL.
+It can be shared with other team members
+or sent to my boss as the precise answer to what I am doing now question :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://farm7.static.flickr.com/6064/6131664091_3d4608b56e_z.jpg&quot; alt=&quot;troubleshooting using wiki&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+    
+ 
+    
+ <entry>
+   <title>Just a Cat</title>
+   <link href="http://www.yushchenko.name/articles/2011/07/just-a-cat"/>
+   <updated>2011-07-19T00:00:00+10:00</updated>
+   <id>http://www.yushchenko.name/articles/2011/07/just-a-cat</id>
+   <content type="html">&lt;h1&gt;Just a Cat&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://farm7.static.flickr.com/6076/6131463963_bac814041f_z.jpg&quot; alt=&quot;just a cat&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The photo has being downloaded from Internet a couple of years ago. Love it :)&lt;/p&gt;
+</content>
+ </entry>
+    
+ 
+    
+ <entry>
+   <title>Twitter</title>
+   <link href="http://www.yushchenko.name/articles/2011/07/twitter"/>
+   <updated>2011-07-18T00:00:00+10:00</updated>
+   <id>http://www.yushchenko.name/articles/2011/07/twitter</id>
+   <content type="html">&lt;h1&gt;Twitter&lt;/h1&gt;
+
+&lt;p&gt;Twitter can be used to develop awareness.&lt;/p&gt;
+
+&lt;p&gt;When you read your stream you are here and now, the past doesn't matter,
+no point to dig into last year's posts.
+When you follow others you build you feature, pave you way ahead,
+developing understanding what is important and what is not.
+When you are posting, you are trying to pick up subtle,
+very subtle details of the present and drop them into the future.&lt;/p&gt;
+
+&lt;p&gt;The idea is achieve a compound effect of many micro changes,
+like a big picture is drown by many minor touches.
+Of course, Twitter is only one tool in huge range of many other.
+It seems good for small, probably, additional shifts
+but at the same time it's really cheap in usage and mistakes, definitively, worth trying.&lt;/p&gt;
+</content>
+ </entry>
+    
+ 
+    
+ <entry>
+   <title>Slow Riding Traning</title>
+   <link href="http://www.yushchenko.name/articles/2011/07/slow-riding-traning"/>
+   <updated>2011-07-07T00:00:00+10:00</updated>
+   <id>http://www.yushchenko.name/articles/2011/07/slow-riding-traning</id>
+   <content type="html">&lt;h1&gt;Slow Riding Traning&lt;/h1&gt;
+
+&lt;p&gt;Preparing to my pre-provisional test I started to train in slow riding.
+The exercises are quite simple such as cone wave, U-turn etc.
+Speed is around 8-12 km/h, clutch riding on the first gear.&lt;/p&gt;
+
+&lt;p&gt;The first session on the parking lot was frankly terrible.
+U-turns in a meter outside of the marked box,
+two or three cones are dropped down in cone wave and so on.
+Humiliating feeling of own clumsiness.&lt;/p&gt;
+
+&lt;p&gt;The next couple of sessions were spent just to find out how to control the motorcycle
+on such low speed.
+The progress was quite fast, I started to notice the changes.
+Now it's much easier to keep the bike during quite sharp turns,
+still not perfect, but at least U-turn is not an issue any more.&lt;/p&gt;
+
+&lt;p&gt;Somewhere at this stage I perceived a quite unexpected thing.
+During my regular street and freeway riding sensation of motorcycle has changed.
+Better control, more precise cornering, sometimes it feels like
+the bike is just an extension of your body.&lt;/p&gt;
+
+&lt;p&gt;There is also a downside, my street riding has become a bit more aggressive and risky.
+Looks like, if you can ride fast, you will ride fast. Just automatically.
+So the next task is find out how to control yourself and keep risk on moderate level
+using the acquired skills.&lt;/p&gt;
+</content>
+ </entry>
+    
+ 
+    
+ <entry>
+   <title>'Casual' Exercises</title>
+   <link href="http://www.yushchenko.name/articles/2011/06/casual-exercises"/>
+   <updated>2011-06-24T00:00:00+10:00</updated>
+   <id>http://www.yushchenko.name/articles/2011/06/casual-exercises</id>
+   <content type="html">&lt;h1&gt;'Casual' Exercises&lt;/h1&gt;
+
+&lt;p&gt;When you are cooking, making tea or doing other everyday tasks,
+there are always tiny pauses.
+Waiting for one, two, three minutes.
+Too small to switch to something else.&lt;/p&gt;
+
+&lt;p&gt;The idea is pretty simple.
+Fill these pauses with easy to do, 'casual' exercises.
+Something like bends, squats, head rotation and so on.
+They should be fairly simple but, at the same time,
+be on one small step out of your 'comfort zone'.&lt;/p&gt;
+
+&lt;p&gt;The benefits are not dramatic but quit noticeable.
+Better blood circulation during the day leads to reduce in fatigue.
+Improvements in flexibility and coordination make your movements smoother and more natural.
+Obviously, the routine tasks are felt not so annoying.
+A little habit that improves quality of life without spending any extra time.&lt;/p&gt;
+
+&lt;p&gt;It's quite interesting to observe these slow improvements.
+I remember the time a couple of years ago when a low bend made me to feel sick.
+Now I can read a book laying on the floor for a quite long time.
+It's comfortable and fun. Why not?&lt;/p&gt;
+</content>
+ </entry>
+    
+ 
+    
+ <entry>
+   <title>JavaScript Build: Ensuring High Code Quality</title>
+   <link href="http://www.yushchenko.name/articles/2011/02/javascript-build-ensuring-high-code-quality"/>
+   <updated>2011-02-10T00:00:00+11:00</updated>
+   <id>http://www.yushchenko.name/articles/2011/02/javascript-build-ensuring-high-code-quality</id>
+   <content type="html">&lt;h1&gt;JavaScript Build: Ensuring High Code Quality&lt;/h1&gt;
+
+&lt;h3&gt;Why To Build?&lt;/h3&gt;
+
+&lt;p&gt;There are two phases in development repeated many times every day: making changes and checking if they work.
+Build is in the middle, it can generate some code as soon as runs automatic code checks.
+In many development environments build is mandatory, you need compile the code to see changes made.
+Developing web applications we can postpone code verification and unit tests
+and switch directly to checking our changes.
+Working under pressure we tend to do so quite often forgetting about the checks at all
+and then spend hours fixing strange bugs.
+Discipline is a good thing but in this case automation is much more reliable.&lt;/p&gt;
+
+&lt;p&gt;The idea is fairly simple: the application references only combined JavaScript files
+making build mandatory.
+The first build step is code generation to keep sources and configs DRY.
+Right after generation it's reasonable to check all code with JSLint.
+If code quality is OK, it's a good time to run unit tests.
+Only when all three previous steps are successful,
+combining is done and the developer can see the changes made.&lt;/p&gt;
+
+&lt;p&gt;A web application can be built using different tools
+but build based on Ant is sometimes considered as a kind of a standard.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Apache Ant&lt;/strong&gt; - split build into separate tasks, combining, regexp replacement, running other tools;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mozila Rhino&lt;/strong&gt; - run code generation scripts and JSLint;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JSLint&lt;/strong&gt; - check JavaScript code quality;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JsTestDriver&lt;/strong&gt; - to run Jasmine unit tests in several browsers during the build;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Closure Compiler&lt;/strong&gt; - to crunch the code;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;The described build process was developed as part of &lt;a href=&quot;https://github.com/yushchenko/formEngine.js&quot; title=&quot;FormEngine.js Project Home&quot;&gt;formEngine.js&lt;/a&gt; project.
+Many great ideas and even code fragments were taken from jQuery 1.4 and jQuery UI builds.&lt;/p&gt;
+
+&lt;h3&gt;Code Generation&lt;/h3&gt;
+
+&lt;p&gt;To run build and tests we need reference the same set of files in several different places:
+in &lt;code&gt;build.xml&lt;/code&gt; for combining, in &lt;code&gt;tests.yaml&lt;/code&gt; to run unit tests using JsTestDriver,
+in &lt;code&gt;tests.html&lt;/code&gt; to debug tests in browser...
+In such situation a good solution is consider &lt;code&gt;build.xml&lt;/code&gt; as the data source for
+automatic generation of all other files.
+This approach helps to avoid stupid mistakes made adding or removing files.&lt;/p&gt;
+
+&lt;p&gt;Lets mark required files in &lt;code&gt;build.xml&lt;/code&gt; with a kind of tags
+and than parse it using regular expressions to extract the file lists required to generate other configs.
+The tags should be put in comments to make Ant completely ignore them:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;concat destfile=&quot;...&quot; &amp;gt;
+  &amp;lt;fileset file=&quot;source/fe.js&quot; /&amp;gt; &amp;lt;!--lint,test--&amp;gt;
+  ...
+&amp;lt;/concat&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the code fragment above file &lt;code&gt;source/fe.js&lt;/code&gt; is marked for JSLint check using &lt;code&gt;lint&lt;/code&gt; tag
+and as testable code with &lt;code&gt;test&lt;/code&gt; tag.&lt;/p&gt;
+
+&lt;p&gt;On the first stage of the build we run script that parses &lt;code&gt;build.xml&lt;/code&gt;,
+extracts all files marked with &lt;code&gt;test&lt;/code&gt; tag and generates &lt;code&gt;tests.yaml&lt;/code&gt; and &lt;code&gt;tests.html&lt;/code&gt; files
+using predefined templates.
+The script is written in JavaScript language and runs using Mozila Rhino JavaScript engine:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;target name=&quot;gen&quot;&amp;gt;
+  &amp;lt;exec executable=&quot;java&quot; failonerror=&quot;true&quot;&amp;gt;
+    &amp;lt;arg line=&quot;-jar build/libs/js.jar build/generate.js&quot; /&amp;gt;
+  &amp;lt;/exec&amp;gt;
+&amp;lt;/target&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Take a look at &lt;a href=&quot;https://github.com/yushchenko/formEngine.js/blob/v0.2/build/utils.js&quot; title=&quot;FormEngine.js 0.2 Source: utils.js&quot;&gt;utils.js&lt;/a&gt; and &lt;a href=&quot;https://github.com/yushchenko/formEngine.js/blob/v0.2/build/generate.js&quot; title=&quot;FormEngine.js 0.2 Source: generate.js&quot;&gt;generate.js&lt;/a&gt; scripts for implementation details.&lt;/p&gt;
+
+&lt;h3&gt;Checking Code Quality with JSLint&lt;/h3&gt;
+
+&lt;p&gt;Having all code generated we can start one of the most important tasks - JSLint check.
+In my opinion, the code quality check should be done before unit testing
+because it quite often reveals misprint and low level mistakes.
+It is not so wise to spend time fixing broken unit test having a variable name misspelled.&lt;/p&gt;
+
+&lt;p&gt;Next, it's very convenient to check not combined source but original files,
+in this case row number and column returned by JSLint can be used to jump directly to the mistake
+using an IDE features.
+For example, in Emacs
+it's enough to return error reference in simple format (path:line:column) in compilation output.
+Such small conveniences look not so important at the first glance
+but during project's life span they save pretty much developer's time.&lt;/p&gt;
+
+&lt;p&gt;To run JSLint simple &lt;a href=&quot;https://github.com/yushchenko/formEngine.js/blob/v0.2/build/lint.js&quot; title=&quot;Form Engine.js 0.2 Source: lint.js&quot;&gt;wrapper&lt;/a&gt; is used,
+it extracts list of files for check from &lt;code&gt;build.xml&lt;/code&gt; by &lt;code&gt;lint&lt;/code&gt; tag
+and then feeds the files one by one to JSLint.
+If there is at least one error the script returns error code to make Ant stop the build
+(&lt;code&gt;failonerror&lt;/code&gt; attribute set for the build task).&lt;/p&gt;
+
+&lt;h3&gt;Running Unit Tests&lt;/h3&gt;
+
+&lt;p&gt;When the code seems clean at least from JSLint's point of view, it's a good time to run unit tests.
+Before the build JsTestDriver server should be started using the following command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;java -jar JsTestDriver-1.2.2.jar --port 9876
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And one or several browsers must be captured by the test server using &lt;code&gt;http://localhost:9876/capture&lt;/code&gt; URL.&lt;/p&gt;
+
+&lt;p&gt;During the build JsTestDriver loads code according &lt;code&gt;tests.yaml&lt;/code&gt; config into all captured browsers in parallel:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;target name=&quot;tests&quot; depends=&quot;jslint&quot;&amp;gt; 
+  &amp;lt;exec executable=&quot;java&quot; failonerror=&quot;true&quot;&amp;gt;
+    &amp;lt;arg line=&quot;-jar JsTestDriver-1.2.2.jar --config tests/tests.yaml --tests all&quot; /&amp;gt;
+  &amp;lt;/exec&amp;gt;
+&amp;lt;/target&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;At the end it returns error code, if one or more unit tests fail, that leads to build termination
+due to &lt;code&gt;failonerror&lt;/code&gt; attribute.
+Stopping the build on JSLint error or unit test failure could be considered as a kind of inconvenience
+but in 99% of cases the developer needs to fix such issues as soon as possible
+before he forgets subtle details of changes made.
+Such strategy emphasize the importance of code verification and unit testing
+because even small error doesn't allows to see the result of your work.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, there is no solution that fits every situation perfectly
+and sometimes a project should be built in spite of broken tests.
+In this case, &lt;code&gt;failonerror&lt;/code&gt; attribute should be removed from &lt;code&gt;tests&lt;/code&gt; task.&lt;/p&gt;
+
+&lt;h3&gt;Combining, Inserting Version Number &amp;amp; Date&lt;/h3&gt;
+
+&lt;p&gt;Combining of several files is quite simple with Ant, it's made by &lt;code&gt;concat&lt;/code&gt; task.
+The &lt;code&gt;concat&lt;/code&gt; contains list of files that should be included in target file.
+Notice &lt;code&gt;fixlastline&lt;/code&gt; attribute, it adds line break at the end of every file to make result code more
+readable (typical mistakes with lost semicolon at the end of the file should be found by JSLint).
+The file list is also used for code generation so files are marked by &lt;code&gt;lint&lt;/code&gt; and &lt;code&gt;test&lt;/code&gt; tags.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;loadfile property=&quot;version&quot; srcfile=&quot;version.txt&quot; /&amp;gt;
+&amp;lt;exec executable=&quot;git&quot; outputproperty=&quot;date&quot;&amp;gt;
+  &amp;lt;arg line=&quot;log -1 --pretty=format:%ad&quot; /&amp;gt;
+&amp;lt;/exec&amp;gt;
+
+&amp;lt;target name=&quot;combine&quot; depends=&quot;tests&quot;&amp;gt;
+
+  &amp;lt;echo message=&quot;Building ${FE}.js...&quot; /&amp;gt;
+
+  &amp;lt;concat destfile=&quot;${FE}.js&quot; fixlastline=&quot;yes&quot;&amp;gt;
+    &amp;lt;fileset file=&quot;source/intro.js&quot; /&amp;gt;
+    &amp;lt;fileset file=&quot;source/fe.js&quot; /&amp;gt; &amp;lt;!--lint,test--&amp;gt;
+    &amp;lt;fileset file=&quot;source/fe.dsl.js&quot; /&amp;gt; &amp;lt;!--lint,test--&amp;gt;      
+    &amp;lt;fileset file=&quot;source/fe.rule.js&quot; /&amp;gt; &amp;lt;!--lint,test--&amp;gt;
+    &amp;lt;!-- many other files here... --&amp;gt;
+    &amp;lt;fileset file=&quot;source/outro.js&quot; /&amp;gt;
+  &amp;lt;/concat&amp;gt;
+
+  &amp;lt;replaceregexp match=&quot;@VERSION&quot; replace=&quot;${version}&quot;
+                 flags=&quot;g&quot; byline=&quot;true&quot; file=&quot;${FE}.js&quot; /&amp;gt;
+  &amp;lt;replaceregexp match=&quot;@DATE&quot; replace=&quot;${date}&quot; file=&quot;${FE}.js&quot; /&amp;gt;
+
+&amp;lt;/target&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It's convenient to keep version number in one separate file
+and insert it into all result files during the build.
+Typical solution is to use &lt;code&gt;replaceregexp&lt;/code&gt; task to replace &lt;code&gt;@VERSION&lt;/code&gt; string by current number
+taken from file by &lt;code&gt;loadfile&lt;/code&gt; task.&lt;/p&gt;
+
+&lt;p&gt;Things are a bit more complex with &lt;code&gt;@DATE&lt;/code&gt; replacement.
+The code above, taken from jQuery 1.4 build, assumes that Git version control is used.
+It extracts the date of the last commit using &lt;code&gt;git log&lt;/code&gt; command
+and than feeds it to &lt;code&gt;replaceregexp&lt;/code&gt; task.&lt;/p&gt;
+
+&lt;h3&gt;The Final Step: Crunching&lt;/h3&gt;
+
+&lt;p&gt;To minify JavaScript code Google Closure Compiler is applied to all combined files:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;target name=&quot;min&quot; depends=&quot;combine&quot;&amp;gt;
+
+  &amp;lt;echo message=&quot;Minifing js files...&quot; /&amp;gt;
+
+  &amp;lt;apply executable=&quot;java&quot; parallel=&quot;false&quot; verbose=&quot;true&quot; dest=&quot;.&quot;&amp;gt;
+    &amp;lt;fileset dir=&quot;.&quot;&amp;gt;
+      &amp;lt;include name=&quot;${FE}.js&quot; /&amp;gt;
+      &amp;lt;!-- other files here --&amp;gt;
+    &amp;lt;/fileset&amp;gt;
+    &amp;lt;arg line=&quot;-jar&quot; /&amp;gt;
+    &amp;lt;arg path=&quot;build/libs/google-compiler-20100917.jar&quot; /&amp;gt;
+    &amp;lt;arg value=&quot;--warning_level&quot; /&amp;gt;
+    &amp;lt;arg value=&quot;QUIET&quot; /&amp;gt;
+    &amp;lt;arg value=&quot;--js_output_file&quot; /&amp;gt;
+    &amp;lt;targetfile /&amp;gt;
+    &amp;lt;arg value=&quot;--js&quot; /&amp;gt;
+    &amp;lt;mapper type=&quot;glob&quot; from=&quot;*.js&quot; to=&quot;*.min.js&quot; /&amp;gt;
+  &amp;lt;/apply&amp;gt;
+
+&amp;lt;/target&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Drawbacks&lt;/h3&gt;
+
+&lt;p&gt;The described build process proved to be usable and quite efficient
+but it has several drawbacks so there is still enough room for improvements.&lt;/p&gt;
+
+&lt;p&gt;The first problem is that JsTestDriver server should be run and at least one browsed should be captured
+otherwise it can't run unit tests so the build seems broken.
+The work around is to run the server and browsers on operation system start up.
+Unfortunately, it is not complete solution because from time to time (quite rarely)
+connection between the captured browser and the test server is lost
+so you have to recapture the browsers.&lt;/p&gt;
+
+&lt;p&gt;Next, such build may work quite slow.
+For example, on my netbook (Atom 1.6GHz, 1Gb) complete build of &lt;a href=&quot;https://github.com/yushchenko/formEngine.js&quot; title=&quot;FormEngine.js Project Home&quot;&gt;formEngine.js&lt;/a&gt;
+takes more than 20 seconds.
+It is not so bad but I don't mind to reduce this time in tenfold.&lt;/p&gt;
+
+&lt;p&gt;The last drawback it inherent dependency on Java and Ant,
+not a big deal, but these tools should be installed on all developer's and build machines.&lt;/p&gt;
+
+&lt;h3&gt;What Next: Glance in the Future&lt;/h3&gt;
+
+&lt;p&gt;The solution described in this article has been developed at 2010
+but JavaScript world goes forward so fast that at the beginning of 2011
+it already seems a bit obsolete.
+I wonder how it should evolve in the near feature
+and what of cutting edge technologies will make developer's life a bit easier.&lt;/p&gt;
+
+&lt;p&gt;I bet on Node.js.
+Ant is good and solves most of the problems more or less gracefully
+but it's so tempting to write all build in pure JavaScript instead of XML...&lt;/p&gt;
+
+&lt;p&gt;Lets just look around.
+JSLint has always been in JavaScript
+and now there is also new and cool minifier - Uglify.js.
+It's used by jQuery 1.5 so there is no doubts in its quality and maturity.
+The results of Uglify.js are even better than Closure Compiler shows.
+Besides these the most complex components there are many other build tools present,
+for example, Jake is a JavaScript Ant replacement
+and jasmine-node could be used to run Jasmine tests directly under Node.js.&lt;/p&gt;
+
+&lt;p&gt;The ground seems ready now and, I hope, in a next article about web application build
+there will be no such thing as Java dependency drawback :)&lt;/p&gt;
+
+&lt;p&gt;Thank you for your time.&lt;/p&gt;
+
+&lt;h3&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ant.apache.org/&quot; title=&quot;Apache Ant Home&quot;&gt;Apache Ant&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.mozilla.org/rhino/&quot; title=&quot;Mozila Rhino Home&quot;&gt;Mozila Rhino&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jslint.com/lint.html&quot; title=&quot;JSLint Home&quot;&gt;JSLint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code.google.com/p/js-test-driver/&quot; title=&quot;JsTestDrive Home&quot;&gt;JsTestDriver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pivotal.github.com/jasmine/&quot; title=&quot;Jasmine BDD Home&quot;&gt;Jasmine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code.google.com/closure/compiler/&quot; title=&quot;Google Closure Compiler Home&quot;&gt;Google Closure Compiler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://nodejs.org/&quot; title=&quot;Node.js Home&quot;&gt;Node.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mishoo/UglifyJS&quot; title=&quot;Uglify.js Project&quot;&gt;Uglify.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/280north/jake&quot; title=&quot;Jake Project&quot;&gt;Jake&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+    
+ 
+    
+ <entry>
+   <title>A JavaScript Namespacing Pattern</title>
+   <link href="http://www.yushchenko.name/articles/2010/12/javascript-namespacing-pattern"/>
+   <updated>2010-12-09T00:00:00+11:00</updated>
+   <id>http://www.yushchenko.name/articles/2010/12/javascript-namespacing-pattern</id>
+   <content type="html">&lt;h1&gt;A JavaScript Namespacing Pattern&lt;/h1&gt;
+
+&lt;h3&gt;Namespacing Problem&lt;/h3&gt;
+
+&lt;p&gt;The simplest way to create a namespace in JavaScript is to declare object variable in the global scope:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var app = { ns: {}};
+app.ns.aFunction = function aFunction() (/*...*/};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Looks a bit clumsy even in a small example.
+For an application with a hundred of source files it will make the code messy extremely fast.
+The problem becomes even worse if several files should contribute in the same namespace
+and you don't want to worry a lot about their inclusion order.&lt;/p&gt;
+
+&lt;p&gt;For real world tasks it would be better to have a solution that fits the following basic requirements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Concise and readable syntax without duplication of namespace name;&lt;/li&gt;
+&lt;li&gt;Ability to add members to the same namespace in several files;&lt;/li&gt;
+&lt;li&gt;Scope for private data and functions;&lt;/li&gt;
+&lt;li&gt;Simple and library independent implementation;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;Combining Patterns for a Better Solution&lt;/h3&gt;
+
+&lt;p&gt;There are several well known patterns that simplify namespacing in JavaScript.
+Lets try to find a proper combination of them to split code into namespaces in an elegant way.&lt;/p&gt;
+
+&lt;p&gt;First, namespace creation should be done automatically on demand:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ns('app.test.namespace');
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The function parses namespace name and creates appropriate chain of objects in the global scope.
+If the namespace already exists the function just returns it without damaging.&lt;/p&gt;
+
+&lt;p&gt;Next, created namespace should be filled with members in a convenient manner
+without endless repetition of namespace's name.
+The &lt;a href=&quot;http://blogs.sitepoint.com/2010/11/30/my-favorite-javascript-design-pattern/&quot;&gt;pattern&lt;/a&gt; provided by James Edwards looks elegant and concise:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;(function () {
+
+    var aPrivateMember = 'value';
+
+    this.aNamespaceMember = function() {/*...*/};
+
+}).apply(ns('app.test.namespace'));
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Anonymous function gives the scope for private members and &lt;code&gt;this&lt;/code&gt; is used as reference to the namespace.&lt;/p&gt;
+
+&lt;p&gt;Now let's give a final touch adding chaining.
+It helps us to move namespace declaration at the beginning
+and make the code a bit more readable hiding implementation details:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ns('ns.test').extend(function () {
+
+    var ctor = this.MyClass = function() {
+        },
+        secret = 'secret';  // private namespace data, common for all instances
+
+    ctor.prototype.getSecret = function getSecret() { // public method
+        return secret;
+    };
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Micro Library&lt;/h3&gt;
+
+&lt;p&gt;For the sake of convenience I have created a micro library which implements the solution discussed above.
+It's called &lt;code&gt;ns.js&lt;/code&gt; and lives &lt;a href=&quot;http://github.com/yushchenko/ns.js&quot; title=&quot;ns.js source code&quot;&gt;here on Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Feel free to contact with &lt;a href=&quot;/about/&quot;&gt;me&lt;/a&gt; if you have any suggestions how to make it better.&lt;/p&gt;
+
+&lt;h3&gt;Links&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://github.com/yushchenko/ns.js&quot; title=&quot;ns.js source code&quot;&gt;ns.js Micro Library on Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://javascriptweblog.wordpress.com/2010/12/07/namespacing-in-javascript/&quot;&gt;Namespacing in JavaScript&lt;/a&gt; by Angus Croll&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blogs.sitepoint.com/2010/11/30/my-favorite-javascript-design-pattern/&quot;&gt;My Favorite JavaScript Design Pattern&lt;/a&gt; by James Edwards&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://michaux.ca/articles/javascript-namespacing&quot;&gt;JavaScript Namespacing&lt;/a&gt; by Peter Michaux&lt;/li&gt;
+&lt;/ol&gt;
+
+</content>
+ </entry>
+    
+ 
+    
+ <entry>
+   <title>jQuery Performance Tips from Paul Irish</title>
+   <link href="http://www.yushchenko.name/articles/2010/07/jquery-performance-tips-from-paul-irish"/>
+   <updated>2010-07-18T00:00:00+10:00</updated>
+   <id>http://www.yushchenko.name/articles/2010/07/jquery-performance-tips-from-paul-irish</id>
+   <content type="html">&lt;h1&gt;jQuery Performance Tips from Paul Irish&lt;/h1&gt;
+
+&lt;p&gt;Today I've been happy to find a really cool presentation about jQuery performance.
+It was created by &lt;a href=&quot;http://paulirish.com/&quot; title=&quot;Paul Irish blog&quot;&gt;Paul Irish&lt;/a&gt; and located &lt;a href=&quot;http://www.slideshare.net/paul.irish/perfcompression&quot; title=&quot;jQuery Anti-Patterns for Performance &amp;amp; Compression&quot;&gt;here&lt;/a&gt;.
+The &lt;a href=&quot;http://vimeo.com/10295601&quot; title=&quot;jQuery Anti-Patterns for Performance &amp;amp; Compression Video&quot;&gt;video&lt;/a&gt; is also available online.&lt;/p&gt;
+
+&lt;p&gt;In my humble opinion, the presentation should be seen by every jQuery developer
+and I regret that I have found it so late.
+This short summary shows the picture in whole but, in any case, doesn't replace the original.&lt;/p&gt;
+
+&lt;p&gt;1. Append as late as it's possible:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; for ( .. many items ..) { 
+     $(...).append(item);           // slow, many DOM operations
+ }
+
+ var items = [];
+ for ( ... many items ...) {
+     items.push(item);    
+ }
+ $(...).html(items.join(''));       // faster, changing DOM in one touch
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;2. Don't requery:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(target).append('&amp;lt;to append /&amp;gt;');
+$('&amp;lt;to append /&amp;gt;').click(...);
+
+$('&amp;lt;to append /&amp;gt;').appendTo(target).click(...);      // working with appended elements
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;3. Query in context:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$('#container').find('.an-item')...; // the recomended way
+$('.an-item', '#container')...;      // the same
+
+$('#container .an-item')...;         // usual and slow approach 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;4. Read selectors from right to left like Sizzle does:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$('#element span')...;               // it's going to find all spans in entire document first
+$('#element').find('span')...;       // using context again
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;5. Be specific:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(':radio')...;                      // = *:radio, select everything than filter it
+$('input:radio')...;                 // much faster version
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;6. Delegate - live events in context (jQuery 1.4.2):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$('#container').delegate('click', '.item', fn);    // explicit context reduce overhead
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;7. Detach it from DOM (jQuery 1.4):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var container = $('#container'), parent = container.parent();
+container.detach();
+..                                   // do havy DOM manipulations here
+parent.append(container);            // allows browser render your changes
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;8. Don't pay for nothing:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$('#notExistingElement').slideUp();  // does a lot of job
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;9. Attach data fast:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(element).data(key, value);         // the usual way
+$.data(elemement, key, value);       // works up to 10x faster 
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+ </entry>
+    
+ 
+ 
+</feed>
